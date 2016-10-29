@@ -89,10 +89,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "AutoLink", "AutoLink/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "AutoLink", "AutoLink/AutoLink/AutoLink/*.{h,m}"
+  # s.exclude_files = "Classes/Exclude"
 
-  # s.public_header_files = "Classes/**/*.h"
+  # s.public_header_files = "AutoLink/AutoLink/AutoLink/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -132,5 +132,6 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
+  
 
 end
