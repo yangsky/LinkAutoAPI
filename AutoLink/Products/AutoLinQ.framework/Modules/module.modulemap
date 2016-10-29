@@ -1,0 +1,6 @@
+framework module AutoLinQ {
+  umbrella header "AutoLinQ.h"
+
+  export *
+  module * { export * }
+}
