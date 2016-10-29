@@ -13,6 +13,7 @@
 		ECCE39731DC4EAAE00AA6EBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCE39711DC4EAAE00AA6EBB /* Main.storyboard */; };
 		ECCE39751DC4EAAE00AA6EBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCE39741DC4EAAE00AA6EBB /* Assets.xcassets */; };
 		ECCE39781DC4EAAE00AA6EBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCE39761DC4EAAE00AA6EBB /* LaunchScreen.storyboard */; };
+		ECCE39811DC4EC8400AA6EBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECCE39801DC4EC8400AA6EBB /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		ECCE39741DC4EAAE00AA6EBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECCE39771DC4EAAE00AA6EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECCE39791DC4EAAE00AA6EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECCE39801DC4EC8400AA6EBB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECCE39811DC4EC8400AA6EBB /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +47,7 @@
 			children = (
 				ECCE39671DC4EAAE00AA6EBB /* AutoLink */,
 				ECCE39661DC4EAAE00AA6EBB /* Products */,
+				ECCE397F1DC4EC8300AA6EBB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +83,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ECCE397F1DC4EC8300AA6EBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECCE39801DC4EC8400AA6EBB /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,6 +122,7 @@
 				TargetAttributes = {
 					ECCE39641DC4EAAE00AA6EBB = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CHX656NT89;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -272,6 +285,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CHX656NT89;
 				INFOPLIST_FILE = AutoLink/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yangsky.AutoLink;
@@ -283,6 +297,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CHX656NT89;
 				INFOPLIST_FILE = AutoLink/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yangsky.AutoLink;
